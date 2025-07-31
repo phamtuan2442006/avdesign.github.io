@@ -1,0 +1,49 @@
+
+/* latestpost.css */
+.latest-posts {
+  padding: 40px;
+}
+.latest-posts h2.title {
+  text-align: center;
+  color: teal;
+}
+.post {
+  display: flex;
+  margin-bottom: 30px;
+}
+.post img {
+  width: 360px;
+  border-radius: 6px;
+  margin-right: 20px;
+}
+.post-content h3 {
+  margin: 0;
+  font-size: 20px;
+}
+.post-content .author {
+  font-size: 0.9em;
+  color: #00bcd4;
+  font-weight: bold;
+  margin-top: 5px;
+}
+.post-content .date {
+  font-size: 0.85em;
+  color: #888;
+  margin-left: 5px;
+}
+.post-content p {
+  margin-top: 10px;
+  color: #555;
+}
+.post a {
+  display: flex;
+  text-decoration: none;
+  color: inherit;
+}
+
+.post a:hover {
+  opacity: 0.9;
+  transition: 0.3s;
+}
+
+
